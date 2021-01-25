@@ -25,6 +25,11 @@ namespace ShoppingCart.Application.Services
             _productsRepo = productsRepository;
         }
 
+        public IQueryable<ProductViewModel> GetProducts(int catagoryId, int skip, int take)
+        {
+            return null; //pagination to be continued
+        }
+
         public void AddProduct(ProductViewModel product)
         {
             //changing this using automapper later on
