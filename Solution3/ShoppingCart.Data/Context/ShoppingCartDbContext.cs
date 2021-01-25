@@ -11,7 +11,7 @@ namespace ShoppingCart.Data.Context
         public ShoppingCartDbContext(DbContextOptions options) : base(options)
         { }
 
-        public DbSet<Product> Products { get; set; } //>>>>converted into tables
+        public DbSet<Product> Products { get; set; } 
 
         public DbSet<Category> Categories { get; set; }
 
@@ -32,7 +32,6 @@ namespace ShoppingCart.Data.Context
         {
             optionsBuilder.UseLazyLoadingProxies();
         }
-
 
     }
 }
