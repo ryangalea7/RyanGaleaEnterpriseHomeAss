@@ -10,8 +10,8 @@ using ShoppingCart.Data.Context;
 namespace ShoppingCart.Data.Migrations
 {
     [DbContext(typeof(ShoppingCartDbContext))]
-    [Migration("20210125041229_UpdatingIdentitySchema")]
-    partial class UpdatingIdentitySchema
+    [Migration("20210125050120_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
